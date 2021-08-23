@@ -141,7 +141,8 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 sudo apt-get update
 
 # Install a specific release of MongoDB
-sudo apt-get install -y mongodb-org=4.2.5 mongodb-org-server=4.2.5 mongodb-org-shell=4.2.5 mongodb-org-mongos=4.2.5 mongodb-org-tools=4.2.5
+#sudo apt-get install -y mongodb-org=4.2.5 mongodb-org-server=4.2.5 mongodb-org-shell=4.2.5 mongodb-org-mongos=4.2.5 mongodb-org-tools=4.2.5
+sudo apt-get install -y mongodb mongodb-server mongodb-shell mongodb-mongos mongodb-tools
 
 #-----------------------------------
 # Finished
